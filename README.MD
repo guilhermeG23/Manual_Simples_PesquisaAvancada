@@ -18,7 +18,7 @@ Coloque com " o conteudo desejado, **Ex:**
 "Teste"
 ```
 ___
-#### Busca especifica
+#### Busca especifica por conteudo dentro do site alvo
 Buscar conteudo expecifico em determinado site:
 ```
 "<termo>" site:<site sem o protocolo>
@@ -67,6 +67,12 @@ Buscar sites com contêudo relacionado a um site alvo, **Exemplo:**
 related:teste.com
 ```
 ___
+#### Buscar por palavras no URL
+Buscar por palavras no URL:
+```
+allinurl:<teste>
+```
+___
 #### Buscar por titúlos
 Buscar contéudo por títutlo:
 ```
@@ -77,6 +83,24 @@ ___
 Buscar dentro do contêudo em texto dos sites
 ```
 intext:teste
+```
+___
+#### Buscar sites que redirecionam
+Buscar sites que usão um link para redirecionar para outro site:
+```
+link:<teste>
+```
+___
+#### Buscar por palavras relacionadas
+Buscar por palavras relacionadas dentro de uma pesquisa:
+```
+"teste" ~teste
+```
+___
+#### Busca por palavrass ausentes
+Fazer buscas com valores ausentes, **Exemplo:**
+```
+* teste
 ```
 ___
 #### Mostrar as ações de uma empresa
